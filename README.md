@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🛍️ Shelfy – Admin Dashboard
 
-## Getting Started
+## 📌 Overview
 
-First, run the development server:
+**Shelfy** is a modern and responsive admin dashboard designed to provide an overview of an e-commerce platform's data. It allows administrators to monitor products, categories, and users through a clean and intuitive interface.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The dashboard consumes RESTful APIs from [DummyJSON](https://dummyjson.com) to fetch real-world sample data and transform it into meaningful statistics and visual insights.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Dashboard Overview:** Display key statistics, including total products, categories, and users.
+- **Products Management:** Browse and explore product data retrieved from the API.
+- **Categories Management:** View and organize available product categories.
+- **Users Management:** Access user information and explore user data.
+- **Products Analytics:** Visualize the top product categories based on product count.
+- **Users Analytics:** Display user distribution across different age groups.
+- **Responsive Design:** Clean and user-friendly interface for different screen sizes.
+- **REST API Integration:** Fetch and manage data dynamically using DummyJSON APIs.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🖥️ Dashboard Preview
 
-## Learn More
+![Shelfy Dashboard](./screenshot.png)
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Frontend:** [Add your framework, e.g. React.js / Next.js / Angular]
+- **Styling:** [Add your styling technology, e.g. CSS / Tailwind CSS]
+- **API Integration:** RESTful APIs
+- **Data Source:** [DummyJSON](https://dummyjson.com)
+- **Icons:** [Add icon library if applicable]
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🌐 API Integration
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project uses [DummyJSON](https://dummyjson.com) as a mock REST API provider.
