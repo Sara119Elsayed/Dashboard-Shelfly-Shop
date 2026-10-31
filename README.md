@@ -23,8 +23,8 @@ The dashboard consumes RESTful APIs from [DummyJSON](https://dummyjson.com) to f
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** [React.js / Next.js / Angular]
-- **Styling:** [CSS / Tailwind CSS]
+- **Frontend:** [React.js, Next.js]
+- **Styling:** [Tailwind CSS]
 - **API Integration:** RESTful APIs
 - **Data Source:** [DummyJSON](https://dummyjson.com)
 
